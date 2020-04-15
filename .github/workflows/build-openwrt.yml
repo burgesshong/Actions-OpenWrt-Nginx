@@ -20,11 +20,10 @@ on:
 env:
   REPO_URL: https://github.com/openwrt/openwrt
   REPO_BRANCH: master
-  TARGET: x86_64
   CONFIG_FILE: X86_64.config
   DIY_SH: diy.sh
   FREE_UP_DISK: true
-  SSH_ACTIONS: false
+  SSH_ACTIONS: true
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
   UPLOAD_RELEASE: true
